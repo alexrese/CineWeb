@@ -21,29 +21,34 @@
 <body>
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <img src="img/cine-web.png" width="120px" alt="">
-            <!-- <a class="navbar-brand" href="#">CineWeb</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#filme">Filmes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Records</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col">
+                    <!-- <a class="navbar-brand" href="#">CineWeb</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#filme">Filmes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Records</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <img src="img/cine-web.png" width="120px" alt="">
+                </div>
+                <div class="col"></div>
             </div>
         </div>
     </nav>
-
-
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -78,43 +83,51 @@
 
     <div class="container mt-5" id="filme">
         <h1 class="text-center">Na Telona</h1>
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <img src="img/bad.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#filmeA">
-                            Saiba Mais
-                        </button>
+        <div class="d-flex">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img/bad.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#filmeA">
+                                Saiba Mais
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/mac.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#filmeB">
-                            Saiba Mais
-                        </button>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img/mac.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#filmeB">
+                                Saiba Mais
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="img/obse.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#filmeC">
-                            Saiba Mais
-                        </button>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="img/obse.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#filmeC">
+                                Saiba Mais
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

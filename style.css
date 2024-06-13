@@ -31,4 +31,23 @@ h1{
 #records h1{
     color: white;
 }
+
+.btn-primary{
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+.navbar>.container-fluid{
+    display: block;
+}
+
+/* .carousel-item img {
+    padding: 35px;
+}
+
+.carousel-item{
+    background-image: url("img/backs.png");
+    background-repeat: no-repeat;
+    background-attachment: unset;
+} */
   
